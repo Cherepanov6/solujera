@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/favicon.png"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/font-awesome.min.css">   
+    
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+        html, body, .backlogo{
+            width: 100%;
+            height: 100%;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*background-color: #000;*/
+        }
+
+        .backlogo{
+            overflow: hidden;
+            position: relative;
+            background-color: #000;            
+        }
+
+         .backlogo img{
+             min-height: 100%;
+             min-width: 100%;
+             position: absolute;
+             left: 50%;
+             top: 50%;
+             transform: translate(-50%, -50%);
+             opacity: 0;
+             filter: blur(0);
+             transition: all 4s ease .5s;
+             
+            
+         }
+         
+        .f-p-logo img{
+             min-height: 10%;
+             min-width: 10%;
+             max-height: 50%;
+             max-width: 50%;
+             position: absolute;
+             left: 50%;
+             top: 50%;
+             filter: blur(0);
+             opacity: 0;
+             transform: translate(-50%, -50%);
+             transition: all 1s ease 4.5s;
+            }
+
+        @media screen and (max-width: 767px) {
+			.masonry[data-columns]::before{
+				content: '1 .col-xs-12';
+			}
+    	}
+
+    	@media screen and (min-width: 768px) and (max-width: 991px) {
+			.masonry[data-columns]::before{
+				content: '2 .col-xs-6';
+			}
+    	}
+
+    	@media screen and (min-width: 992px) and (max-width: 1199px) {
+			.masonry[data-columns]::before{
+				content: '3 .col-xs-4';
+			}
+    	}
+
+    	@media screen and (min-width: 1200px) {
+			.masonry[data-columns]::before{
+				content: '3 .col-xs-4';
+			}
+    	}
+
+        .social {
+            position: fixed;
+            right: 0;
+            top: 45%;
+            z-index: 99999;
+        }
+
+        .social a {
+            display: block;
+            width: 40px;
+            height: 40px;
+            margin: 5px;
+        }
+
+        .social .fb, .social .vk {
+            background-image: url('social.png');
+            width: 40px;
+            height: 40px;
+        }
+
+        .social .vk {
+           background-position: 40px;
+        }
+
+        .map {
+            height: 400px;
+        }
+
+        .sign
+        {
+            display: none;
+        }
+    </style>
+    <title>Solu Jera lightinghouse | Solu Jera дом света</title>
+</head>
+<body>
+    <!--<h1>        
+        <p>S O L U <img src="img/logo.png" alt="Solu Jera lightinghouse дом света"> J E R A </p>        
+        <p style="padding-top: 18px; font-size: 10px;">LIGHTINGHOUSE</p>
+    </h1>-->
+    <div class="social">
+        <a href="https://www.facebook.com/solujera/ " target="_blank" title="SoluJera в facebook">
+                <div class="fb"></div>
+        </a>
+        <a href="https://vk.com/public142882571 " target="_blank" title="SoluJera в Вконтакте">
+                <div class="vk"></div>
+        </a>
+    </div>
+    
+    <div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+				<span class="sr-only">Открыть навигацию</span>						
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+				<p style="color: #fff; margin: 10px 30px 0 10px;">S O L U <img src="img/logo_min.png" alt="Solu Jera lightinghouse дом света"> J E R A </p>
+			</div>
+			<div class="collapse navbar-collapse" id="responsive-menu">
+				<ul class="nav navbar-nav">
+					<li><a href="#Contardi">Светильники Contardi</a></li>
+					<li><a href="#Serip">Светильники Serip</a></li>
+					<li><a href="#MULTIFORME">Светильники MULTIFORME</a></li>				
+                    <li><a href="#Contacts">Контакты</a></li>
+                </ul>
+                
+                <p class="navbar-text navbar-right" style="font-weight: bold; color: #fff;">
+                  <i class="fa fa-phone" aria-hidden="true"></i> 8(926)160-55-39
+                </p>
+			</div>
+		</div>
+	</div>
+
+    <div class="backlogo">
+        <img src="img/back.jpg" alt="Solu Jera lightinghouse дом света">
+        <div class="f-p-logo">
+            <img src="img/front.jpg" alt="Solu Jera lightinghouse пректировка света в жилых и нежилых помещениях">  
+        </div>  
+            
+    </div>
+
+    <a id="Contardi"></a>  
+    <div class="container">
+         <div class="page-header">
+                <h2>
+                    Светильники фабрики Contardi
+                </h2>
+        </div> 
+    
+        <div class="row masonry" data-columns>
+            <div>
+                <div class="thumbnail">
+                    <img src="img/lights/contardi/calipso_antigua.jpg" alt="Подвесной светильник Contardi CALYPSO ANTIGUA" class="img-responsive">
+                    <div class="caption">
+                        <h3>Подвесной светильник Contardi CALYPSO ANTIGUA</h3>
+                        <p>
+                           Подвесной светильник  на арматуре из матовой латуни. 
+                           Текстильный абажур выполнен из шелка черного цвета с бежевой и бордовой вставкой. 
+                           Золотой кант на абажуре. Высота светильника регулируется до 200 см. 
+                           <br>
+                           <br>
+                           Дизайн: Servomuto.
+                           <br>
+                           Материал: Металл / Текстиль
+                           <br>
+                           Количество лампочек: 1
+                           <br>
+                           Мощность: 1 x 23 Вт
+                           <br>
+                           Тип лампы: Накаливания, E27
+                           <br>
+                           Габариты(ВхШхГ):  60 x 36 x 36 см
+                           
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="thumbnail">
+                    <img src="img/lights/contardi/manhattan_ap.jpg" alt="Настенный светильник Contardi MANHATTAN AP bronze" class="img-responsive">
+                    <div class="caption">
+                        <h3>Настенный светильник Contardi MANHATTAN AP bronze</h3>
+                        <p>
+                            Настенный светильник из коллекции MANHATTAN выполнен из металла бронзового цвета. 
+                            Световой поток можно менять, врящая светильник в разные стороны. 
+                            <br>
+                            <br>
+                            Дизайн: Alltogether
+                            <br>
+                            Материал: Металл
+                            <br>
+                            Количество лампочек: 1
+                            <br>
+                            Мощность: 1 x 3 Вт
+                            <br>
+                            Тип лампы: LED                            
+                            <br>
+                            Габариты(ВхШхГ):  12.5 x 42 x 4 см
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="thumbnail">
+                    <img src="img/lights/contardi/flexiled_ap_l60_nickel.jpg" alt="Настенный светильник Contardi FLEXILED AP L60 nickel" class="img-responsive">
+                    <div class="caption">
+                        <h3>Настенный светильник Contardi FLEXILED AP L60 nickel</h3>
+                        <p>
+                            Настенный светильник из коллекции FLEXILED выполнен из никелированного металла.
+                            Светильник с выключателем на основании. 
+                            <br>
+                            <br>
+                            Дизайн: King&Roselli
+                            <br>
+                            Материал: Металл
+                            <br>
+                            Количество лампочек: 1
+                            <br>
+                            Мощность: 1 x 3 Вт
+                            <br>
+                            Тип лампы: LED
+                            <br>
+                            Габариты(ВхШ):  60 x 5 см
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="thumbnail">
+                    <img src="img/lights/contardi/manhattan_ap.jpg" alt="Настенный светильник Contardi MANHATTAN AP nickel" class="img-responsive">
+                    <div class="caption">
+                        <h3>Настенный светильник Contardi MANHATTAN AP nickel</h3>
+                        <p>
+                            Настенный светильник из коллекции MANHATTAN выполнен из никелированного металла. 
+                            Световой поток можно менять, врящая светильник в разные стороны.
+                            <br>
+                            <br>
+                            Дизайн: Alltogether.
+                            <br>
+                            Материал: Металл
+                            <br>
+                            Количество лампочек: 1
+                            <br>
+                            Мощность: 1 x 3 Вт
+                            <br>
+                            Тип лампы: LED
+                            <br>
+                            Габариты(ВхШхГ):  12.5 x 42 x 4 см
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="thumbnail">
+                    <img src="img/lights/contardi/lala_ap_wenge.jpg" alt="Настенный светильник Contardi LALA AP wenge" class="img-responsive">
+                    <div class="caption">
+                        <h3>Настенный светильник Contardi LALA AP wenge</h3>
+                        <p>
+                            Настенный светильник с оригинальным дизайном из коллекции LALA на никелированном основании в деревянной рамке цвета венге. 
+                            Плафон выполнен из ткани белого цвета. 
+                            Внутренняя стенка светильника зеркальная. 
+                            <br>
+                            <br>
+                            Дизайн: Stephanie du Mesnil.
+                            <br>
+                            Материал: Дерево
+                            <br>
+                            Количество лампочек: 2
+                            <br>
+                            Мощность: 2 x 28 Вт
+                            <br>
+                            Тип лампы: Накаливания, E14
+                            <br>
+                            Габариты(ВхШхГ):  60 x 17 x 14.5 см
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="thumbnail">
+                    <img src="img/lights/contardi/lala_soliflor_brown.jpg" alt="Настенный светильник Contardi LALA SOLIFLOR brown" class="img-responsive">
+                    <div class="caption">
+                        <h3>Настенный светильник Contardi LALA SOLIFLOR brown</h3>
+                        <p>
+                           Настенный светильник с оригинальным дизайном из коллекции LALA в деревянной рамке черно-коричневого цвета. 
+                            Плафон выполнен в виде прозрачной колбы, в которой можно расположить красивый цветок. 
+                            Внутренняя стенка светильника зеркальная. 
+                            <br>
+                            <br>
+                            Дизайн: Stephanie du Mesnil
+                            <br>
+                            Материал: Дерево
+                            <br>
+                            Количество лампочек: 1
+                            <br>
+                            Мощность: 1 x 3 Вт
+                            <br>
+                            Тип лампы: LED
+                            <br>
+                            Габариты(ВхШхГ):  60 x 17 x 12.5 см
+                        </p>
+                    </div>
+                </div>
+            </div>
+             <div>
+                <div class="thumbnail">
+                    <img src="img/lights/contardi/calypso_guadaloupe.jpg" alt="Подвесной светильник Contardi CALYPSO GUADALOUPE" class="img-responsive">
+                    <div class="caption">
+                        <h3>Подвесной светильник Contardi CALYPSO GUADALOUPE</h3>
+                        <p>
+                            Подвесной светильник CALYPSO GUADALOUPE на арматуре из матовой латуни. 
+                            Текстильный абажур выполнен из шелка черного цвета с бежевой и серой вставкой. 
+                            Высота светильника регулируется до 200 см. 
+                            <br>
+                            <br>
+                            Дизайн: Servomuto.
+                            <br>
+                            Материал: Металл / Текстиль
+                            <br>
+                            Количество лампочек: 1
+                            <br>
+                            Мощность: 1 x 23 Вт
+                            <br>
+                            Тип лампы: Накаливания, E27
+                            <br>    
+                            Габариты(ВхШхГ):  60 x 36 x 36 см
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="thumbnail">
+                    <img src="img/lights/contardi/calypso_martinique.jpg" alt="Подвесной светильник Contardi CALYPSO MARTINIQUE" class="img-responsive">
+                    <div class="caption">
+                        <h3>Подвесной светильник Contardi CALYPSO MARTINIQUE</h3>
+                        <p>
+                            Подвесной светильник CALYPSO MARTINIQUE на арматуре из матовой латуни. 
+                            Текстильный абажур выполнен из шелка бежевого цвета. 
+                            Высота светильника регулируется до 200 см. 
+                            <br>
+                            <br>
+                            Дизайн: Servomuto.
+                            <br>
+                            Материал: Металл / Текстиль
+                            <br>
+                            Количество лампочек: 1
+                            <br>
+                            Мощность: 1 x 23 Вт
+                            <br>
+                            Тип лампы: Накаливания, E27
+                            <br>
+                            Габариты(ВхШхГ):  60 x 39 x 39 см
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="thumbnail">
+                    <img src="img/lights/contardi/muse_delux_so_medium_nickel.jpg" alt="Подвесной светильник Contardi MUSE DELUXE SO MEDIUM nickel" class="img-responsive">
+                    <div class="caption">
+                        <h3>Подвесной светильник Contardi MUSE DELUXE SO MEDIUM nickel</h3>
+                        <p>
+                            Подвесной светильник из коллекции MUSE на никелированной арматуре. Плафон в металлической серой рамке со створками из белой ткани. Высота светильника регулируется.
+                            <br>
+                            <br>
+                            Дизайн: Tristan Auer
+                            <br>
+                            Материал: Металл 
+                            <br>
+                            Количество лампочек: 1
+                            <br>
+                            Мощность: 1 x 150 Вт
+                            <br>
+                            Тип лампы: Накаливания, E27
+                            <br>
+                            Габариты(ВхШхГ):  40 x 40 x 40 см
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="thumbnail">
+                    <img src="img/lights/contardi/flexiled_ap_l90_brown.jpg" alt="Настенный светильник Contardi FLEXILED AP L90 brown" class="img-responsive">
+                    <div class="caption">
+                        <h3>Настенный светильник Contardi FLEXILED AP L90 brown</h3>
+                        <p>
+                            Настенный светильник из коллекции FLEXILED выполнен из металла бронзового цвета и обтянут кожей темно-коричневого цвета. Светильник с выключателем на основании
+                            <br>
+                            <br>
+                            Дизайн: King&Roselli
+                            <br>
+                            Материал:  Кожа
+                            <br>
+                            Количество лампочек: 1
+                            <br>
+                            Мощность: 1 x 3 Вт
+                            <br>
+                            Тип лампы: LED
+                            <br>
+                            Габариты(ВхШ):  90 x 5 см
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-header">
+                <h2>
+                    Светильник настенный накладной Contardi KIRA TA
+                </h2>
+        </div>
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/lights/contardi-kira-ta/kira ta_01_91o6527w.jpg" alt="Светильник настенный накладной Contardi KIRA TA">
+                    <div class="carousel-caption"></div>
+                </div>
+                <div class="item">
+                     <img src="img/lights/contardi-kira-ta/kira ta_02_pk751wgx.jpg" alt="Светильник настенный накладной Contardi KIRA TA">
+                    <div class="carousel-caption"></div>
+                </div>
+                <div class="item">
+                     <img src="img/lights/contardi-kira-ta/kira ta_03_c0zeog8g.jpg" alt="Светильник настенный накладной Contardi KIRA TA">
+                    <div class="carousel-caption"></div>
+                </div>
+                <div class="item">
+                     <img src="img/lights/contardi-kira-ta/kira ta_05bis_liunnenx.jpg" alt="Светильник настенный накладной Contardi KIRA TA">
+                    <div class="carousel-caption"></div>
+                </div>
+                <div class="item">
+                     <img src="img/lights/contardi-kira-ta/KIRA TA_n6t7qec5.jpg" alt="Светильник настенный накладной Contardi KIRA TA">
+                    <div class="carousel-caption"></div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+
+        <a id="Serip"></a>
+        <div class="page-header">
+                <h2>
+                    Светильники фабрики <img src="img/lights/serip/logo.png" alt="Serip">
+                </h2>
+        </div>
+        <div class="row masonry" data-columns>
+            <div>
+                <div class="thumbnail">
+                    <img src="img/lights/serip/CT326318-FO29.jpg" alt="Подвесной светильник Serip CT3263/18-FO/29 + 27 + 26 + 24 + 22 + 15 + 10 + 5" class="img-responsive">
+                    <div class="caption">
+                        <h3>Подвесной светильник Serip CT3263/18-FO/29 + 27 + 26 + 24 + 22 + 15 + 10 + 5</h3>
+                        <p>
+                            Подвесной светильник из коллекции Bijout. 
+                            Дизайн в виде дерева со сплетением ветвей. 
+                            Цвет металла золотой. На ветвях сверкающие разноцветные подвески-капли из стекла ручной работы: 
+                            фиолетовые, розовые, пурпурные, зеленые, золотые, прозрачные. 
+                            Все стекло для светильников Serip изготавливается и формируется вручную. 
+                            Кстати, в стекле полностью отсутствует свинец и это сильно усложняет работу мастеров, так как именно свинец делает стекло эластичным. 
+                            Такое неэластичное стекло невозможно выдувать и фабрике пришлось разработать свои уникальные технологии работы со стеклом. 
+                            Отказ от свинца и замена его органическим аналогом является важным шагом для сохранения здоровья человека и экологии. 
+                            Высоту светильника можно регулировать от 110 до 335 см. 
+                            Идеальные пропорции и изящные линии сочетают в себе классические традиции и новаторство нашего времени. 
+                            Изделия Serip имеют органичные формы и цвета, вливаются в интерьер, делая его утонченнее и ярче. 
+                            Возможны другие варианты по цвету покрытия металла.	
+                            <br>
+                            <br>
+                            Серия: Bijout
+                            <br>
+                            Материал: Металл / Стекло
+                            <br>
+                            Количество лампочек: 18
+                            <br>
+                            Мощность: 18 x 40 Вт
+                            <br>
+                            Тип лампы: Галогенная, G9
+                            <br>
+                            Вес: 28 кг
+                            <br>
+                            абариты(ВхШхГ):  80 x 180 x 85 см
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="thumbnail">
+                    <img src="img/lights/serip/CT323212-TA10.jpg" alt="Потолочный светильник Serip CT3232/12-TA/10+25+4+18" class="img-responsive">
+                    <div class="caption">
+                        <h3>Потолочный светильник Serip CT3232/12-TA/10+25+4+18</h3>
+                        <p>
+                            Потолочный светильник из коллекции Glamour. 
+                            Дизайн в виде дерева со сплетением ветвей.
+                            Цвет металла бронзовый. 
+                            На ветвях сверкающие разноцветные подвески-капли из стекла ручной работы: светло-зеленые, болотного цвета, золотые, прозрачные. 
+                            Все стекло для светильников Serip изготавливается и формируется вручную. 
+                            Кстати, в стекле полностью отсутствует свинец и это сильно усложняет работу мастеров, так как именно свинец делает стекло эластичным. 
+                            Такое неэластичное стекло невозможно выдувать и фабрике пришлось разработать свои уникальные технологии работы со стеклом. 
+                            Отказ от свинца и замена его органическим аналогом является важным шагом для сохранения здоровья человека и экологии. 
+                            Идеальные пропорции и изящные линии сочетают в себе классические традиции и новаторство нашего времени. 
+                            Изделия Serip имеют органичные формы и цвета, вливаются в интерьер, делая его утонченнее и ярче. 
+                            Возможны другие варианты по цвету стекла и покрытию металла.	
+                            <br>
+                            <br>
+                            Материал: Металл / Стекло
+                            <br>
+                            Количество лампочек: 12
+                            <br>
+                            Мощность: 12 x 40 Вт
+                            <br>
+                            Тип лампы: Галогенная, G9
+                            <br>
+                            Габариты(ВхШхГ):  85 x 120 x 120 см
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="thumbnail">
+                    <img src="img/lights/serip/AP144714-FP39.jpg" alt="Настенный светильник Serip AP1447/14-FP/39+33+32+10" class="img-responsive">
+                    <div class="caption">
+                        <h3>Настенный светильник Serip AP1447/14-FP/39 + 33 + 32 + 10</h3>
+                        <p>
+                            Настенный светильник из коллекции Glamour выполнен из металла серебряного цвета. 
+                            Дизайн в виде дерева со сплетением ветвей. 
+                            На ветвях сверкающие разноцветные подвески из стекла ручной работы. 
+                            В этой модели присутствуют четыре цвета стекла: "Blue Sea" — морской волны, «Turquoise» - бирюзовый, «Lind Water» - голубой , "Clear" - прозрачный. 
+                            Все стекло для светильников Serip изготавливается и формируется вручную. 
+                            Кстати, в стекле полностью отсутствует свинец и это сильно усложняет работу мастеров, так как именно свинец делает стекло эластичным. 
+                            Такое неэластичное стекло невозможно выдувать и фабрике пришлось разработать свои уникальные технологии работы со стеклом. 
+                            Отказ от свинца и замена его органическим аналогом является важным шагом для сохранения здоровья человека и экологии. 
+                            Идеальные пропорции и изящные линии сочетают в себе классические традиции и новаторство нашего времени. 
+                            Изделия Serip имеют органичные формы и цвета, вливаются в интерьер, делая его утонченнее и ярче. 
+                            Возможны другие варианты по цвету стекла и покрытию металла.	
+                            <br>
+                            <br>
+                            Материал: Металл / Стекло
+                            <br>
+                            Количество лампочек: 14
+                            <br>
+                            Мощность: 14 x 40 Вт
+                            <br>
+                            Тип лампы: Галогенная, G9
+                            <br>
+                            Вес: 40кг
+                            <br>
+                            Габариты(ВхШхГ):  170 x 235 x 30 см
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+         </div>
+
+         <a id="MULTIFORME"></a>
+         <div class="page-header">
+                <h2>
+                   Светильники MULTIFORME <img src="img/lights/multiforme/Multiforme-logo-W.png" alt="multiforme">
+                </h2>
+        </div>
+
+        <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="4"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="5"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="6"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="7"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="8"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="9"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="10"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="11"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="12"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/lights/multiforme/lampadario-murano-chapeau-by-MULTIFORME-lighting.jpg" alt="Светильник chapeau MULTIFORME">
+                    <div class="carousel-caption">
+                        <h3>Сhapeau</h3>
+                        <p>
+                            Светильник Сhapeau MULTIFORME
+                        </p>                       
+                    </div>
+                </div>
+                <div class="item">
+                     <img src="img/lights/multiforme/lampadario-murano-chapeau-TIMELESS-collection-by-MULTIFORME-lighting.jpg" alt="Светильник chapeau MULTIFORME">
+                    <div class="carousel-caption">
+                        <h3>Сhapeau</h3>
+                        <p>
+                            Светильник Сhapeau MULTIFORME
+                        </p> 
+                    </div>
+                </div>
+                <div class="item">
+                     <img src="img/lights/multiforme/multiforme-lighting-chapeau-011.jpg" alt="Светильник chapeau MULTIFORME">
+                    <div class="carousel-caption">
+                        <h3>Сhapeau</h3>
+                        <p>
+                            Светильник Сhapeau MULTIFORME
+                        </p> 
+                    </div>
+                </div>
+                <div class="item">
+                     <img src="img/lights/multiforme/multiforme-lighting-coco-01.jpg" alt="Светильник Сoco MULTIFORME">
+                    <div class="carousel-caption">
+                        <h3>Сoco</h3>
+                        <p>
+                            Светильник Сoco MULTIFORME
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                     <img src="img/lights/multiforme/multiforme-lighting-coco-02.jpg" alt="Светильник coco MULTIFORME">
+                    <div class="carousel-caption">
+                        <h3>Сoco</h3>
+                        <p>
+                            Светильник Сoco MULTIFORME
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                     <img src="img/lights/multiforme/multiforme-lighting-coco-03.jpg" alt="Светильник coco MULTIFORME">
+                    <div class="carousel-caption">
+                        <h3>Сoco</h3>
+                        <p>
+                            Светильник Сoco MULTIFORME
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                     <img src="img/lights/multiforme/multiforme-lighting-coco-04.jpg" alt="Светильник coco MULTIFORME">
+                    <div class="carousel-caption">
+                        <h3>Сoco</h3>
+                        <p>
+                            Светильник Сoco MULTIFORME
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                     <img src="img/lights/multiforme/multiforme-lighting-folie-01.jpg" alt="Светильник Folie MULTIFORME">
+                    <div class="carousel-caption">
+                        <h3>Folie</h3>
+                        <p>
+                            Светильник Folie MULTIFORME
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                     <img src="img/lights/multiforme/multiforme-lighting-folie-02.jpg" alt="Светильник folie MULTIFORME">
+                    <div class="carousel-caption">
+                        <h3>Folie</h3>
+                        <p>
+                            Светильник Folie MULTIFORME
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                     <img src="img/lights/multiforme/multiforme-lighting-folie-03.jpg" alt="Светильник folie MULTIFORME">
+                    <div class="carousel-caption">
+                        <h3>Folie</h3>
+                        <p>
+                            Светильник Folie MULTIFORME
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                     <img src="img/lights/multiforme/multiforme-lighting-simplicissimus360-01.jpg" alt="Светильник Simplicissimus360 MULTIFORME">
+                    <div class="carousel-caption">
+                        <h3>Simplicissimus 360</h3>
+                        <p>
+                           Светильник Simplicissimus 360 MULTIFORME 
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                     <img src="img/lights/multiforme/multiforme-lighting-simplicissimus360-02.jpg" alt=" Светильник Simplicissimus360 MULTIFORME">
+                    <div class="carousel-caption">
+                        <h3>Simplicissimus 360</h3>
+                        <p>
+                           Светильник Simplicissimus 360 MULTIFORME 
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                     <img src="img/lights/multiforme/multiforme-lighting-simplicissimus360-03.jpg" alt=" Светильник Simplicissimus360 MULTIFORME">
+                    <div class="carousel-caption">
+                        <h3>Simplicissimus 360</h3>
+                        <p>
+                           Светильник Simplicissimus 360 MULTIFORME 
+                        </p>
+                    </div>
+                </div>                
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+
+        <a id="Contacts"></a>
+         <div class="page-header">
+                <h2>
+                   Контакты
+                </h2>
+        </div>
+        <p>
+            Мы ждем Вас по адресу: Нахимовский проспект 24, ТВК Decor Expo, место Н2/1. Наш контактный телефон: 8(926)160-55-39
+        </p>
+        <div class="map"  id="map">
+
+        </div>
+    </div>    
+    <p style="margin: 20px 0 0 0; text-align: center; background-color: #101010; color: #fff;">
+            SOLUJERA ltd
+    </p>
+    <p class="sign">
+        made by Cherepanov6
+    </p>
+    <script type="text/javascript" charset="utf-8" async 
+    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A661870cc54125acfc0ddc94fc133204d51f9aed56cc98e32c389e61c45db58d3&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true&amp;id=map"></script>
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/salvattore.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            setTimeout(function(){
+                $('.backlogo>img').css('opacity', 1)
+                setTimeout(function(){
+                    $('.backlogo>img').css('filter', 'blur(5px)')
+                }, 4000)
+                $('.f-p-logo>img').css('opacity', 1)
+            }, 100)
+
+        })
+    </script>               
+</body>
+</html>
